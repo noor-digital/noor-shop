@@ -19,6 +19,22 @@ class DemoAccountsSeeder extends Seeder
 {
     public function run(): void
     {
+        // Hard refusal: these accounts carry trivial passwords and must never
+        // land in production. The guard reads the current APP_ENV and blocks
+        // any execution outside of local / testing / staging. The seeder can
+        // still be forced by exporting NOOR_ALLOW_DEMO_SEED=1 (documented in
+        // backend/README.md) when seeding is genuinely required against a
+        // production-like environment during a staging rehearsal.
+        $env = app()->environment();
+        $forbidden = ! in_array($env, ['local', 'testing', 'staging'], true);
+        if ($forbidden && env('NOOR_ALLOW_DEMO_SEED') !== '1') {
+            $this->command?->warn(
+                "DemoAccountsSeeder skipped — environment is '{$env}'. "
+                . 'Set NOOR_ALLOW_DEMO_SEED=1 to force (not recommended).'
+            );
+            return;
+        }
+
         // 1) Platform admin
         User::updateOrCreate(
             ['email' => 'admin@noor.shop'],

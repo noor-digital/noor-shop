@@ -67,6 +67,18 @@ class Store extends Model
         return $this->hasOne(StoreSetting::class);
     }
 
+    /** @return \Illuminate\Database\Eloquent\Relations\HasMany<Category> */
+    public function categories(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Category::class);
+    }
+
+    /** @return \Illuminate\Database\Eloquent\Relations\HasMany<Product> */
+    public function products(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Product::class);
+    }
+
     /** @param Builder<Store> $query */
     public function scopeActive(Builder $query): Builder
     {
