@@ -16,11 +16,14 @@ use InvalidArgumentException;
  * Orchestrates order lifecycle: creation (with stock reservation),
  * status transitions, cancellation (with stock release) and completion
  * (with stock consumption). Writes an order_status_histories row on
- * every transition.
+ * every transition, and an `order.*` audit log for traceability.
  */
 class OrderService
 {
-    public function __construct(private readonly StockService $stock) {}
+    public function __construct(
+        private readonly StockService $stock,
+        private readonly AuditService $audit,
+    ) {}
 
     /**
      * Create a pending order for the given store, reserving stock in the
@@ -198,6 +201,18 @@ class OrderService
                 $actor ? ($actor->isPlatformAdmin() ? 'platform_admin' : 'merchant') : 'system',
                 $actor?->id,
                 $note
+            );
+
+            // Trail the transition in the global audit log so platform
+            // admins can spot anomalies across stores (per CDC §19 traçabilité).
+            $this->audit->record(
+                'order.status_changed',
+                $actor,
+                'order',
+                $order->id,
+                $order->reference,
+                $note,
+                ['from' => $from, 'to' => $to, 'store_id' => $order->store_id],
             );
 
             return $order->fresh();

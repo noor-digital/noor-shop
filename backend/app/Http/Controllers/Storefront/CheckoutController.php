@@ -43,6 +43,7 @@ class CheckoutController extends Controller
     public function place(Request $request, Store $store): RedirectResponse|JsonResponse
     {
         $this->assertStorefront($store);
+        $this->assertSubscriptionLive($store);
 
         $data = $request->validate([
             'name' => ['required', 'string', 'max:150'],
@@ -139,6 +140,22 @@ class CheckoutController extends Controller
     {
         // Suspended stores are not navigable publicly.
         abort_unless($store->isActive(), 404);
+    }
+
+    /**
+     * Refuse new orders if the owner's most recent subscription is cancelled
+     * or expired (grace is still fine — cahier des charges §13.4). Does
+     * nothing if no subscription exists yet (fresh signup).
+     */
+    private function assertSubscriptionLive(Store $store): void
+    {
+        $owner = $store->owner;
+        if (! $owner) return;
+        $sub = $owner->subscriptions()->latest()->first();
+        if (! $sub) return;
+        if (in_array($sub->status, [\App\Models\Subscription::STATUS_EXPIRED, \App\Models\Subscription::STATUS_CANCELLED], true)) {
+            abort(403, 'Cette boutique n\'accepte plus de nouvelles commandes pour le moment.');
+        }
     }
 
     private function storePayload(Store $store): array
