@@ -1,0 +1,63 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color-scheme: light;
+  --color-canvas: #F2F4F5;
+  --color-surface: #FFFFFF;
+  --color-ink: #171717;
+  --color-muted: #787574;
+  --color-hairline: #EBEBEB;
+  --color-violet: #5433EB;
+  --color-violet-wash: #C0B5F3;
+}
+
+html,
+body,
+#root {
+  min-height: 100%;
+  background: var(--color-canvas);
+  overflow-x: clip;
+}
+
+body {
+  font-family: 'GT Standard', 'Inter', ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+  color: var(--color-ink);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-feature-settings: 'ss01', 'cv11';
+  letter-spacing: -0.014em;
+  font-size: 15px;
+  line-height: 1.5;
+}
+
+/* Hide scrollbar on horizontal rails but keep scrollable */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+/* Subtle focus ring */
+*:focus-visible {
+  outline: 2px solid var(--color-violet);
+  outline-offset: 2px;
+  border-radius: 9999px;
+}
+
+/* Marquee for logos row */
+@keyframes marquee {
+  from { transform: translateX(0); }
+  to { transform: translateX(-50%); }
+}
+.animate-marquee {
+  animation: marquee 30s linear infinite;
+}
+
+/* Gradient blob for marketing */
+.violet-aura {
+  background: radial-gradient(60% 60% at 50% 40%, rgba(84,51,235,0.18) 0%, rgba(192,181,243,0.10) 40%, transparent 70%);
+}

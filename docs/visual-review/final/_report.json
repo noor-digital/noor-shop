@@ -1,0 +1,1178 @@
+{
+  "startedAt": "2026-11-11T10:47:31.595Z",
+  "build": "see npm run build output",
+  "captures": [
+    {
+      "id": "01-landing",
+      "label": "Accueil NOOR SHOP",
+      "viewport": "desktop",
+      "path": "/",
+      "file": "01-landing-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "02-store-home",
+      "label": "Boutique publique (Marble)",
+      "viewport": "desktop",
+      "path": "/boutique/maam-couture",
+      "file": "02-store-home-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "03-store-catalog",
+      "label": "Catalogue produits",
+      "viewport": "desktop",
+      "path": "/boutique/maam-couture/catalogue",
+      "file": "03-store-catalog-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "04-product",
+      "label": "Fiche produit",
+      "viewport": "desktop",
+      "path": "/boutique/maam-couture/produit/boubou-wax-linguere",
+      "file": "04-product-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "05-cart",
+      "label": "Panier (vide)",
+      "viewport": "desktop",
+      "path": "/boutique/maam-couture/panier",
+      "file": "05-cart-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "06-checkout",
+      "label": "Checkout",
+      "viewport": "desktop",
+      "path": "/boutique/maam-couture/commande",
+      "file": "06-checkout-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "07-merchant-dashboard",
+      "label": "Dashboard commerçant",
+      "viewport": "desktop",
+      "path": "/merchant",
+      "file": "07-merchant-dashboard-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "08-merchant-products",
+      "label": "Produits",
+      "viewport": "desktop",
+      "path": "/merchant/produits",
+      "file": "08-merchant-products-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "09-merchant-orders",
+      "label": "Commandes",
+      "viewport": "desktop",
+      "path": "/merchant/commandes",
+      "file": "09-merchant-orders-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "10-merchant-customize",
+      "label": "Personnalisation",
+      "viewport": "desktop",
+      "path": "/merchant/personnalisation",
+      "file": "10-merchant-customize-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "11-platform-dashboard",
+      "label": "Admin plateforme",
+      "viewport": "desktop",
+      "path": "/platform",
+      "file": "11-platform-dashboard-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-01-store-editorial",
+      "label": "Boutique Editorial",
+      "viewport": "desktop",
+      "path": "/boutique/teranga-beauty",
+      "file": "ex-01-store-editorial-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-02-store-gallery",
+      "label": "Boutique Gallery",
+      "viewport": "desktop",
+      "path": "/boutique/baobab-home",
+      "file": "ex-02-store-gallery-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-03-pricing",
+      "label": "Tarifs",
+      "viewport": "desktop",
+      "path": "/tarifs",
+      "file": "ex-03-pricing-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-04-features",
+      "label": "Fonctionnalités",
+      "viewport": "desktop",
+      "path": "/fonctionnalites",
+      "file": "ex-04-features-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-05-login",
+      "label": "Connexion",
+      "viewport": "desktop",
+      "path": "/connexion",
+      "file": "ex-05-login-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-06-merchant-analytics",
+      "label": "Statistiques commerçant",
+      "viewport": "desktop",
+      "path": "/merchant/statistiques",
+      "file": "ex-06-merchant-analytics-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-07-merchant-stocks",
+      "label": "Stocks",
+      "viewport": "desktop",
+      "path": "/merchant/stocks",
+      "file": "ex-07-merchant-stocks-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-08-merchant-orderdetail",
+      "label": "Détail commande",
+      "viewport": "desktop",
+      "path": "/merchant/commandes/NS-2026-1041",
+      "file": "ex-08-merchant-orderdetail-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-09-platform-stores",
+      "label": "Admin boutiques",
+      "viewport": "desktop",
+      "path": "/platform/boutiques",
+      "file": "ex-09-platform-stores-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "ex-10-platform-plans",
+      "label": "Admin offres",
+      "viewport": "desktop",
+      "path": "/platform/offres",
+      "file": "ex-10-platform-plans-desktop.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "id": "01-landing",
+      "label": "Accueil NOOR SHOP",
+      "viewport": "mobile",
+      "path": "/",
+      "file": "01-landing-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "02-store-home",
+      "label": "Boutique publique (Marble)",
+      "viewport": "mobile",
+      "path": "/boutique/maam-couture",
+      "file": "02-store-home-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "03-store-catalog",
+      "label": "Catalogue produits",
+      "viewport": "mobile",
+      "path": "/boutique/maam-couture/catalogue",
+      "file": "03-store-catalog-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "04-product",
+      "label": "Fiche produit",
+      "viewport": "mobile",
+      "path": "/boutique/maam-couture/produit/boubou-wax-linguere",
+      "file": "04-product-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "05-cart",
+      "label": "Panier (vide)",
+      "viewport": "mobile",
+      "path": "/boutique/maam-couture/panier",
+      "file": "05-cart-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "06-checkout",
+      "label": "Checkout",
+      "viewport": "mobile",
+      "path": "/boutique/maam-couture/commande",
+      "file": "06-checkout-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "07-merchant-dashboard",
+      "label": "Dashboard commerçant",
+      "viewport": "mobile",
+      "path": "/merchant",
+      "file": "07-merchant-dashboard-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "08-merchant-products",
+      "label": "Produits",
+      "viewport": "mobile",
+      "path": "/merchant/produits",
+      "file": "08-merchant-products-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "09-merchant-orders",
+      "label": "Commandes",
+      "viewport": "mobile",
+      "path": "/merchant/commandes",
+      "file": "09-merchant-orders-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "10-merchant-customize",
+      "label": "Personnalisation",
+      "viewport": "mobile",
+      "path": "/merchant/personnalisation",
+      "file": "10-merchant-customize-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "11-platform-dashboard",
+      "label": "Admin plateforme",
+      "viewport": "mobile",
+      "path": "/platform",
+      "file": "11-platform-dashboard-mobile.png",
+      "status": 200,
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "id": "ex-11-cart-filled",
+      "label": "Panier rempli",
+      "viewport": "desktop",
+      "path": "/panier (filled)",
+      "file": "ex-11-cart-filled-desktop.png",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "id": "ex-12-checkout-filled",
+      "label": "Checkout rempli",
+      "viewport": "desktop",
+      "path": "/commande (filled)",
+      "file": "ex-12-checkout-filled-desktop.png",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "id": "ex-13-confirmation",
+      "label": "Confirmation commande",
+      "viewport": "desktop",
+      "path": "/confirmation/:token",
+      "file": "ex-13-confirmation-desktop.png",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "id": "ex-14-product-form",
+      "label": "Formulaire nouveau produit",
+      "viewport": "desktop",
+      "path": "/merchant/produits/nouveau",
+      "file": "ex-14-product-form-desktop.png",
+      "status": 200,
+      "overflow": false
+    },
+    {
+      "id": "ex-15-wizard",
+      "label": "Wizard nouvelle boutique",
+      "viewport": "desktop",
+      "path": "/merchant/boutiques/nouvelle",
+      "file": "ex-15-wizard-desktop.png",
+      "status": 200,
+      "overflow": false
+    }
+  ],
+  "consoleErrors": [
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "msg": "Failed to load resource: net::ERR_INSUFFICIENT_RESOURCES"
+    }
+  ],
+  "pageErrors": [],
+  "failedResources": [
+    {
+      "where": "1440px",
+      "url": "http://127.0.0.1:5173/src/data/stores.js?t=1794392812366",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "url": "http://127.0.0.1:5173/src/data/catalog.js?t=1794392801490",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "url": "http://127.0.0.1:5173/src/lib/format.js?t=1794392639829",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "1440px",
+      "url": "http://127.0.0.1:5173/src/data/plans.js",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "url": "http://127.0.0.1:5173/src/data/stores.js?t=1794392812366",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "url": "http://127.0.0.1:5173/src/data/catalog.js?t=1794392801490",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "url": "http://127.0.0.1:5173/src/data/plans.js",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "390px",
+      "url": "http://127.0.0.1:5173/src/lib/format.js?t=1794392639829",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "url": "http://127.0.0.1:5173/src/data/catalog.js?t=1794392801490",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "url": "http://127.0.0.1:5173/src/lib/format.js?t=1794392639829",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "url": "http://127.0.0.1:5173/src/data/plans.js",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    },
+    {
+      "where": "resp-1024",
+      "url": "http://127.0.0.1:5173/src/data/orders.js",
+      "failure": "net::ERR_INSUFFICIENT_RESOURCES"
+    }
+  ],
+  "xofIssues": [],
+  "purchaseFlow": {
+    "startedAt": "2026-11-11T10:49:19.587Z",
+    "steps": [
+      {
+        "name": "open store",
+        "ok": true
+      },
+      {
+        "name": "catalog has products",
+        "ok": true
+      },
+      {
+        "name": "product page loaded",
+        "ok": true
+      },
+      {
+        "name": "size selected",
+        "ok": true
+      },
+      {
+        "name": "quantity 2",
+        "ok": true
+      },
+      {
+        "name": "cart counter updated",
+        "ok": true,
+        "detail": "counter=2"
+      },
+      {
+        "name": "cart shows quantity",
+        "ok": true,
+        "detail": "qty=2"
+      },
+      {
+        "name": "cart quantity +1",
+        "ok": true,
+        "detail": "qty=3"
+      },
+      {
+        "name": "cart quantity -1",
+        "ok": true,
+        "detail": "qty=2"
+      },
+      {
+        "name": "checkout reached",
+        "ok": true
+      },
+      {
+        "name": "confirmation reached",
+        "ok": true
+      },
+      {
+        "name": "cart emptied after order",
+        "ok": true
+      }
+    ],
+    "endedAt": "2026-11-11T10:49:30.153Z"
+  },
+  "responsive": [
+    {
+      "width": 320,
+      "path": "/",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 320,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 320,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 320,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 320,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 320,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 320,
+      "winW": 320
+    },
+    {
+      "width": 360,
+      "path": "/",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 360,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 360,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 360,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 360,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 360,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 360,
+      "winW": 360
+    },
+    {
+      "width": 390,
+      "path": "/",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 390,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 390,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 390,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 390,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 390,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 390,
+      "winW": 390
+    },
+    {
+      "width": 430,
+      "path": "/",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 430,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 430,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 430,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 430,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 430,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 430,
+      "winW": 430
+    },
+    {
+      "width": 768,
+      "path": "/",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 768,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 768,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 768,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 768,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 768,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 768,
+      "winW": 768
+    },
+    {
+      "width": 1024,
+      "path": "/",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1024,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1024,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1024,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1024,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1024,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 1024,
+      "winW": 1024
+    },
+    {
+      "width": 1440,
+      "path": "/",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "width": 1440,
+      "path": "/boutique/maam-couture",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "width": 1440,
+      "path": "/boutique/maam-couture/catalogue",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "width": 1440,
+      "path": "/merchant",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "width": 1440,
+      "path": "/merchant/personnalisation",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    },
+    {
+      "width": 1440,
+      "path": "/platform",
+      "overflow": false,
+      "docW": 1440,
+      "winW": 1440
+    }
+  ],
+  "interactions": [
+    {
+      "name": "merchant product form loads",
+      "ok": true
+    },
+    {
+      "name": "store wizard loads",
+      "ok": true
+    },
+    {
+      "name": "order detail loads",
+      "ok": true
+    },
+    {
+      "name": "admin merchants list loads",
+      "ok": true
+    },
+    {
+      "name": "admin stores list loads",
+      "ok": true
+    },
+    {
+      "name": "customization page loads",
+      "ok": true
+    }
+  ],
+  "endedAt": "2026-11-11T10:50:38.379Z"
+}

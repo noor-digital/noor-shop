@@ -1,0 +1,23 @@
+{
+  "results": [
+    {
+      "id": "10-merchant-customize",
+      "path": "/merchant/personnalisation",
+      "label": "Personnalisation boutique",
+      "viewport": "mobile",
+      "status": 200,
+      "file": "10-merchant-customize-mobile.png",
+      "ok": true
+    },
+    {
+      "id": "11-platform-dashboard",
+      "path": "/platform",
+      "label": "Administration plateforme",
+      "viewport": "mobile",
+      "status": 200,
+      "file": "11-platform-dashboard-mobile.png",
+      "ok": true
+    }
+  ],
+  "errors": []
+}
