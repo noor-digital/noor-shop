@@ -12,6 +12,7 @@ use App\Http\Controllers\Platform\AuditLogController;
 use App\Http\Controllers\Platform\PlatformDashboardController;
 use App\Http\Controllers\Platform\PlatformStoreController;
 use App\Http\Controllers\Storefront\CheckoutController;
+use App\Http\Controllers\Storefront\StorefrontController;
 use Illuminate\Support\Facades\Route;
 use Inertia\Inertia;
 
@@ -72,6 +73,10 @@ Route::middleware(['auth', 'verified', 'merchant'])
 */
 
 Route::prefix('boutique/{store:slug}')->name('storefront.')->group(function () {
+    Route::get('/', [StorefrontController::class, 'home'])->name('home');
+    Route::get('catalogue', [StorefrontController::class, 'catalog'])->name('catalog');
+    Route::get('produit/{productSlug}', [StorefrontController::class, 'product'])->name('product');
+
     Route::get('commande', [CheckoutController::class, 'show'])->name('checkout');
     Route::post('commande', [CheckoutController::class, 'place'])
         ->middleware('throttle:10,1')
