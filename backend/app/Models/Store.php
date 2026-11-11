@@ -79,6 +79,24 @@ class Store extends Model
         return $this->hasMany(Product::class);
     }
 
+    /** @return \Illuminate\Database\Eloquent\Relations\HasMany<Order> */
+    public function orders(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Order::class);
+    }
+
+    /** @return \Illuminate\Database\Eloquent\Relations\HasMany<Customer> */
+    public function customers(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(Customer::class);
+    }
+
+    /** @return \Illuminate\Database\Eloquent\Relations\HasMany<DeliveryZone> */
+    public function deliveryZones(): \Illuminate\Database\Eloquent\Relations\HasMany
+    {
+        return $this->hasMany(DeliveryZone::class);
+    }
+
     /** @param Builder<Store> $query */
     public function scopeActive(Builder $query): Builder
     {

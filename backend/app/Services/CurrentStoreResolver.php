@@ -30,15 +30,20 @@ class CurrentStoreResolver
             /** @var Store|null $store */
             $store = $user->stores()
                 ->where('id', $sessionStoreId)
-                ->whereNull('deleted_at')
                 ->first();
 
-            if ($store && $store->isActive()) {
+            // Honour the session pick even when the store is suspended —
+            // a merchant must keep access to their data under suspension
+            // (cahier des charges §13.4).
+            if ($store) {
                 return $store;
             }
         }
 
-        return $user->stores()->active()->orderBy('id')->first();
+        // Prefer active stores, but fall back to any non-trashed store
+        // (including suspended ones) so the merchant workspace keeps working.
+        return $user->stores()->active()->orderBy('id')->first()
+            ?? $user->stores()->orderBy('id')->first();
     }
 
     /**

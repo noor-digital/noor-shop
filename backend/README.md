@@ -4,21 +4,46 @@ Phase 2 du projet NOOR SHOP : le backend Laravel qui remplacera
 progressivement la logique localStorage du prototype frontend situé à la
 racine du dépôt (`../src/`).
 
-**État actuel — Phase 1A (socle d'authentification & multi-tenant)** :
+**État actuel — Phase 1A + 1B + 1C (socle complet multi-tenant + catalogue + commandes)** :
 
 - Laravel 12 + React Starter Kit (TypeScript + Inertia 2) scaffoldé.
-- Migrations : `users` (avec rôle), `plans`, `stores`, `store_settings`,
-  `subscriptions`.
-- Modèles Eloquent + relations + `StorePolicy` (isolation par propriétaire).
-- Middlewares `merchant` et `platform` (rôles).
-- Routes `/merchant` et `/platform` protégées avec contrôleurs stub.
-- Seeders : 3 offres (Découverte / Pro / Business), 1 admin plateforme,
-  1 commerçant démo avec boutique Marble.
-- Migrations + seeders validés en SQLite in-memory.
+- Base de données (18 tables) : `users` (avec rôle), `plans`, `stores`,
+  `store_settings`, `subscriptions`, `categories`, `products`,
+  `product_images`, `product_options`, `product_option_values`,
+  `product_variants` (+ pivot), `customers`, `delivery_zones`, `orders`,
+  `order_items`, `order_status_histories`, `inventory_movements`,
+  `audit_logs`.
+- Modèles Eloquent + relations typées + trait `BelongsToStore`.
+- Policies : `StorePolicy`, `CategoryPolicy`, `ProductPolicy`,
+  `OrderPolicy`, `CustomerPolicy`, `DeliveryZonePolicy`.
+- Services : `CurrentStoreResolver`, `StockService` (réservation 2 h,
+  verrous pessimistes, libération idempotente), `OrderService`
+  (transitions validées, historique, agrégats clients), `AuditService`.
+- CRUD complet côté commerçant : catégories, produits (avec upload image),
+  commandes (filtres + transitions + historique), clients (consultation),
+  zones de livraison.
+- Checkout public `/boutique/{slug}/commande` + confirmation par token.
+- Administration plateforme : suspension / réactivation de boutique avec
+  motif obligatoire et journal d'audit.
+- Commande artisan `orders:release-expired` planifiée toutes les 5 min.
+- Rate-limiting sur `/register`, `/forgot-password`, `/reset-password`
+  et `/boutique/{slug}/commande`.
+- 65 tests Pest/PHPUnit — 221 assertions, suite verte en ~12 s.
 
-Le périmètre Phase 1B à venir : produits, catégories, variantes, stocks,
-commandes, zones de livraison, journal d'audit — toutes les tables listées
-au §17 du cahier des charges.
+**Parties encore à livrer pour couvrir intégralement le MVP** :
+
+- CRUD UI des options / variantes produits (tables et relations prêtes
+  côté base, aucun contrôleur dédié dans l'espace commerçant).
+- Portage des shells violets du prototype (`../src/components/layouts/`)
+  vers Inertia : aujourd'hui les pages utilisent le layout starter kit
+  (anglais / indigo). À faire dans une phase d'intégration UI dédiée.
+- Pages publiques complètes de la boutique (accueil / catégories / fiche
+  produit / panier) en version Inertia — le prototype React/Vite autonome
+  continue de les servir depuis `../src/pages/storefront/`.
+- Cycle d'abonnement automatique (expiration via job planifié, bandeau
+  d'avertissement périodique dans la UI).
+- Formulaires de paramètres boutique (le modèle `StoreSetting` existe,
+  la UI de configuration reste à livrer).
 
 ---
 
